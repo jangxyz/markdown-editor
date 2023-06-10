@@ -6,20 +6,20 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout.759982b6.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/FromMarkdown.5ef3f694.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/SwitchLink.42300505.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.e92b28d0.js">
+		<link href="../_app/immutable/assets/FromMarkdown.7ade34e0.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/SwitchLink.2f4c785c.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.96c9c5a5.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.52be0318.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.4ecaa884.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.dc6ae243.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.d4591bd3.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.b54a1064.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.e9ced768.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/layout.svelte.cb2d72a7.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/markdown-editor-layout.js.984db11e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/markdown-editor-from-markdown-page.svelte.1ba08ae9.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/stores.f434fa43.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/FromMarkdown.77d62983.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/SwitchLink.28e056f7.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/markdown-editor-from-markdown-page.svelte.543f50e9.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.99144efe.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/FromMarkdown.e53bd86e.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/SwitchLink.71f04526.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_commonjsHelpers.725317a4.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.3911779e.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.190416a8.js">
@@ -28,9 +28,9 @@
 		<div style="display: contents">
 
 
-<div class="markdown-editor svelte-1koamt8" id="from-markdown"><h1 class="svelte-1koamt8">Markdown Playground</h1>
+<div class="markdown-editor svelte-1qm93ml" id="from-markdown"><h1 class="svelte-1qm93ml">Markdown Playground</h1>
 
-	<main class="flex svelte-1koamt8"><div class="input section svelte-1koamt8"><h2>Input: Markdown</h2>
+	<main class="grid x-flex svelte-1qm93ml"><div class="input section svelte-1qm93ml"><h2>Input: Markdown</h2>
 
 <header class="svelte-cb618"><nav class="svelte-cb618">
 			
@@ -38,30 +38,82 @@
 			
 			<button aria-current="false" aria-pressed="false" class="svelte-cb618">MDAST</button></nav></header>
 
-<section class="input svelte-cb618" id="markdown-source"><header class="svelte-alpm1q"><details open class="svelte-alpm1q"><summary class="svelte-alpm1q">Render Options</summary>
+<section class="input svelte-cb618" id="markdown-source"><header class="svelte-7o9dyo"><details open class="svelte-7o9dyo"><summary class="svelte-7o9dyo">Render Options</summary>
+		<div class="render-options">
+		
+		<div class="row rawHtml2 svelte-o7b8n7"><details class="svelte-o7b8n7"><summary class="svelte-o7b8n7"><label class="svelte-o7b8n7"><input type="checkbox" checked>
+							Raw HTML</label></summary>
+					<label class="row svelte-o7b8n7"><span>tagNames:</span>
+							<input type="text" value="h1,h2,h3,h4,h5,h6,br,b,i,strong,em,a,pre,code,img,tt,div,ins,del,sup,sub,p,ol,ul,table,thead,tbody,tfoot,blockquote,dl,dt,dd,kbd,q,samp,var,hr,ruby,rt,rp,li,tr,td,th,s,strike,summary,details,caption,figure,figcaption,abbr,bdo,cite,dfn,mark,small,span,time,wbr,input,header,footer,style,button" class="svelte-o7b8n7">
+						</label><label class="row svelte-o7b8n7"><span>attributes:</span>
+							<textarea rows="5" class="svelte-o7b8n7">{
+  "a": [
+    "href"
+  ],
+  "img": [
+    "src",
+    "longDesc"
+  ],
+  "input": [
+    [
+      "type",
+      "checkbox"
+    ],
+    [
+      "disabled",
+      true
+    ]
+  ],
+  "li": [
+    [
+      "className",
+      "task-list-item"
+    ]
+  ],
+  "div": [
+    "itemScope",
+    "itemType"
+  ],
+  "blockquote": [
+    "cite"
+  ],
+  "del": [
+    "cite"
+  ],
+  "ins": [
+    "cite"
+  ],
+  "q": [
+    "cite"
+  ],
+  "*": [
+    "itemScope",
+    "itemType",
+    "className",
+    "style"
+  ]
+}</textarea>
+						</label></details>
+			</div>
+		
+		<label class="row renderComments svelte-o7b8n7"><input type="checkbox"  class="svelte-o7b8n7" checked>
+				Show comments
+			</label>
+</div></details></header>
 
-		<div class="svelte-alpm1q">
-				
-				<label class="row rawHtml"><input type="checkbox"  checked>
-						Raw HTML
-				</label>
-				
-				<label class="row renderComments"><input type="checkbox"  checked>
-						Show comments
-				</label></div></details></header>
-
-<textarea class="svelte-1shgm01"></textarea>
+<textarea class="svelte-12nyroc"></textarea>
 </section>
 
-<footer class="svelte-mar7g7"><details class="footer svelte-1p2yxd" slot="footer"><summary>Convert</summary>
-			<form class="svelte-1p2yxd"><button type="submit">Convert</button>
-				<label><input type="checkbox" class="svelte-1p2yxd"> Auto
-				</label></form></details></footer></div>
+<footer class="svelte-mar7g7"><details class="footer svelte-5v17ru" slot="footer"><summary>Convert</summary>
+			<form class="svelte-5v17ru"><button type="button">Update URL</button>
+				<div><button type="submit">Convert</button>
+					<label class="svelte-5v17ru"><input type="checkbox" class="svelte-5v17ru" checked> Auto
+					</label></div></form></details></footer></div>
 
-		<div class="switch svelte-1koamt8"><a href="./to-markdown?html=" title="swap input and output" class="svelte-1t8exvi">⇌</a>
+		<div class="switch svelte-1qm93ml"><a href="./to-markdown?html=" title="swap input and output" class="svelte-1gvfj3h">⇌</a>
 	</div>
 
-		<div class="output section svelte-1koamt8"><h2>Output: HTML</h2>
+		<div class="output section svelte-1qm93ml"><h2>Output: HTML</h2>
 
 <header class="svelte-cb618"><nav class="svelte-cb618">
 			
@@ -81,7 +133,7 @@
 			
 			<script>
 				{
-					__sveltekit_10o4ckd = {
+					__sveltekit_139fs7n = {
 						assets: "/markdown-editor",
 						base: new URL("..", location).pathname.slice(0, -1),
 						env: {}
@@ -92,8 +144,8 @@
 					const data = [null,null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.e92b28d0.js"),
-						import("../_app/immutable/entry/app.dc6ae243.js")
+						import("../_app/immutable/entry/start.96c9c5a5.js"),
+						import("../_app/immutable/entry/app.b54a1064.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2, 6],
